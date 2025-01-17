@@ -1,0 +1,62 @@
+Q1)Design a logic circuit with input signal a and control input b and output x and y to operate as follows: 
+when b = 1, output x will follow input a and y will be 0, 
+when b = 0 then x = 0 and y will follow a.
+
+Q2)The notation x1,x0 represent 2bit binary number and y1,y0 another 2bit binary number. 
+Design a logic circuit whose output is high only when the two binary number are equal.
+
+Q3)Design and implement multiplexer which has 2 selection line.(4*1 mux using aoi)
+
+Q4)Implement function p and q using 3*8 decoder(using full adder).
+	X Y Z  P Q
+	0 0 0  0 0
+	0 0 1  1 0
+	0 1 0  1 0
+	0 1 1  0 1
+	1 0 0  1 0
+	1 0 1  0 1
+	1 1 0  0 1
+	1 1 1  1 1
+Q5)Counting sequence 0,1,2,3,4,5 again and again(mod-6).
+
+Q6) Combinational circuit with 3 input and 1 output. 
+Output is 1 when input is less then 3 otherwise output is 0.
+
+Q7) combinational circuit with input x,y,z and output a,b,c. 
+When input is 0,1,2,3 then output is 1 greater then input.
+When input is 4,5,6,7 output is 1 less then input.
+
+Q8) Combinational circuit in which input is 4-bit BCD,
+then output 7-segment has upper left segment always working.(4,5,6,8,9,0)
+
+Q9) The following english expression describes the way a logic circuit needs to operate in order to
+drive a seat belt warning indicator in a car. If the driver is present AND the driver is NOT buckled up AND
+the ignition switch is on then turn on the warning light. 
+Describe the circuit using equation,truth table,diagram.
+
+Q10) Parity bit: The transmitter transmits 8-bit of information (rest of question in qb)
+
+Q11) We have 2 ff, In ff A, single input positive clock where output = input(d-ff). 
+FF B contains 2 input positive edge but toggles more than once(race around condition) convert A to B.
+(d to jk)
+
+Q12) BCD adder for two num 5 and 7.
+
+Q13) Two 4-bit num 1011 and 1111 are applied to 4-bit parallel computing device, carry input is 1.
+Design a circuit to generate sum and carry.(4-bit parallel adder)
+
+Q14)  Synchronous up counter using JK 4-bit (show using bcd to 7-segment also timing diagram)
+
+Q15) Decayed async counter using dff
+
+Q16) BCD to XS3 using decoder
+
+Q17) Ring and johnson counter
+
+Q18) Design a circuit which accepts user input through multiple buttons coke,sprite,sting,pepsi(mux)
+
+Q19) Shaft encoder and 4-Bit BCD adder
+
+Q20) Universal Shift register(right,left+parallel loading also use 4*1 mux)
+
+Q21) Design and verify d-ff
